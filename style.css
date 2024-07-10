@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 24px;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* SVG Icon Styles */
+nav svg {
+  width: 24px;
+  height: 11px;
+  fill: #2D314D; 
+  cursor: pointer;
+  margin-left: 20px; 
+  transition: fill 0.3s ease;
+}
+
+/* Hover Effect for SVG Icon */
+nav svg:hover {
+  opacity: 0.8; 
+}
+
+.request-invite {
+  background: linear-gradient(to right, #33d9b2, #a2e8e4);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.9s ease-in; 
+}
+
+.request-invite:hover {
+  opacity: 0.8;
+  background: linear-gradient(to right, #a2e8e4, #33d9b2); 
+}
+
+/* Change SVG on Button Hover */
+.request-invite:hover ~ nav svg {
+  fill: #a2e8e4; 
+}
+
+/* Main Section Styles */
+main {
+  padding: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+  /* Insert your code here */
+}
+
+/* Features Section Styles */
+.features {
+  /* Insert your code here */
+}
+
+/* Articles Section Styles */
+.articles {
+  /* Insert your code here */
+}
+
+/* Form Section Styles */
+.form {
+  /* Insert your code here */
+}
+
+/* Footer Styles */
+footer {
+  /* Insert your code here */
+}
