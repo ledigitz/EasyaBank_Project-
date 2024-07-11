@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +8,7 @@
 /* General Styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
 /* Header Styles */
@@ -64,11 +65,11 @@ nav svg {
 
 /* Hover Effect for SVG Icon */
 nav svg:hover {
-  opacity: 0.8; 
+  opacity: 0.7; 
 }
 
 .request-invite {
-  background: linear-gradient(to right, #33d9b2, #a2e8e4);
+  background: linear-gradient(90deg,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
   border: none;
   border-radius: 50px;
   color: white;
@@ -79,8 +80,7 @@ nav svg:hover {
 }
 
 .request-invite:hover {
-  opacity: 0.8;
-  background: linear-gradient(to right, #a2e8e4, #33d9b2); 
+  opacity: 0.8; /* I changed it because only opacity gave the closest thing to the colors shown when active the background color was not needed*/
 }
 
 /* Change SVG on Button Hover */
@@ -90,12 +90,71 @@ nav svg:hover {
 
 /* Main Section Styles */
 main {
-  padding: 20px;
+  padding-left: 10%;
 }
 
 /* Hero Section Styles */
-.hero {
-  /* Insert your code here */
+.hero{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero .text-section{
+  width: 45%;
+}
+
+.hero .text-section h1{
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.hero .text-section p{
+  font-size: 0.9rem;
+  color: #737373;
+  margin-bottom: 30px;
+}
+
+.hero .text-section button{
+  border-radius: 15px;
+  background: linear-gradient(90deg,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border: none;
+  padding: 10px 25px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.9s ease-in; 
+}
+
+.hero .text-section button:hover{
+  opacity: 0.7;
+}
+
+.hero .easy-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero .easy-images .bottom-image{
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  left: 15%;
+  top: -15%;
+  transform: translate(-5%, -25%);
+  
+}
+
+.hero .easy-images .top-image{
+  position: absolute;
+  z-index: 2;
+  right: -10%;
+  overflow: hidden;
 }
 
 /* Features Section Styles */
