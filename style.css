@@ -216,5 +216,142 @@ border: 3px solid transparent;
 
 /* Footer Styles */
 footer {
-  /* Insert your code here */
+  /* Insert your code here */ 
+  box-sizing: border-box;
+  height: 300px;
+  background-color: rgba(31, 32, 73, 0.938);
+  
+
+  .Title{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 38%;
+    justify-content: space-between;
+  }
+
+  .icon-1{
+  margin-top: 7%;
+  margin-left: 3%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+  .icon-2{
+  margin-top: 7%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+  .icon-3{
+  margin-top: 7%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+  .icon-4{
+  margin-top: 7%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+  .icon-5{
+  margin-top: 7%;  
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+
+  .group{
+    margin-left: 33%;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .arr-6{
+    margin-top: 2%;
+  }
+
+  .arr-1{
+    margin-top: 6%;
+    margin-left: -8.4%;
+  }
+
+  .arr-2{
+     margin-top: 10%;
+    margin-left: -8.3%;
+  }
+
+  .arr-5{
+    margin-top: 2%;
+    margin-left: 13%;
+  }
+
+  .arr-3{
+    margin-top: 6%;
+    margin-left: -6.8%;
+  }
+
+  .arr-4{
+    margin-top: 10%;
+    margin-left: -7.3%;
+  }
+
+   .active{
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 18%;
+    margin-left: 140%;
+    color: #eee;
+  }
+  
+   button{
+    position: absolute;
+    width: 12%;
+    height: 6%;
+    margin-top: -10px;
+    margin-left: 80%;
+    display: block;
+    background: linear-gradient(to right, #0be65fdc 5%, #05fcaa98 100%);
+    border: none;
+    border-radius: 50px;
+    padding: 7px;
+    font-family: 'public-sans';
+    color: #e7e7e7;
+   }
+
+   .head{
+    margin-left: 40px;
+    font-size: 30px;
+   }
+
+   .logo-name{
+    margin-top: 7.3%;
+    margin-left: 78.3%;
+    display: block;
+    font-size: 26px;
+    border: none;
+    font-family: Arial;
+    color: rgb(124, 124, 124);
+   }
+
+  li{
+    padding-left: 20px;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(211, 208, 208);
+    font-weight: lighter;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+}
+.butn-side{
+  margin-top: 2%;
 }
