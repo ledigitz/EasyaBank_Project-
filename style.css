@@ -1,99 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* General Styles */
 body {
-  margin: 0;
-  font-family: "Public Sans", sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* Header Styles */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  display: flex;
-  align-items: center;
+    background: white;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo img {
-  height: 24px;
-  margin-right: 10px;
+    height: 40px; /* Adjust the height as needed */
 }
 
 nav {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 20px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
 }
 
-nav ul li {
-  margin: 0 15px;
+.nav-links li {
+    margin: 0 15px;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* SVG Icon Styles */
-nav svg {
-  width: 24px;
-  height: 11px;
-  fill: #2D314D; 
-  cursor: pointer;
-  margin-left: 20px; 
-  transition: fill 0.3s ease;
-}
-
-/* Hover Effect for SVG Icon */
-nav svg:hover {
-  opacity: 0.7; 
+.nav-right {
+    display: flex;
+    align-items: center;
 }
 
 .request-invite {
-  background: linear-gradient(90deg,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-  border: none;
-  border-radius: 50px;
-  color: white;
-  padding: 10px 20px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.9s ease-in; 
+    background: linear-gradient(90deg, rgba(0,255,135,1) 0%, rgba(0,204,255,1) 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .request-invite:hover {
-  opacity: 0.8; /* I changed it because only opacity gave the closest thing to the colors shown when active the background color was not needed*/
+    opacity: 0.8;
 }
 
-/* Change SVG on Button Hover */
-.request-invite:hover ~ nav svg {
-  fill: #a2e8e4; 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
 }
 
-/* Main Section Styles */
-main {
-  padding-left: 10%;
+.hamburger svg {
+    fill: #2D314D;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: white;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: flex;
+    }
 }
 
 /* Hero Section Styles */
+
+  /* Insert your code here */
 .hero{
   position: relative;
   display: flex;
@@ -147,7 +157,7 @@ main {
   left: 15%;
   top: -15%;
   transform: translate(-5%, -25%);
-  
+
 }
 
 .hero .easy-images .top-image{
@@ -159,7 +169,7 @@ main {
 
 /* Features Section Styles */
 .features {
-  /* Insert your code here */
+    
 }
 
 /* Articles Section Styles */
@@ -209,14 +219,146 @@ border: 3px solid transparent;
   width: 100%;
   height: 250px;
 }
-/* Form Section Styles */
-.form {
-  /* Insert your code here */
-}
 
 /* Footer Styles */
 footer {
   /* Insert your code here */
-   
+  /* Insert your code here */ 
+  box-sizing: border-box;
+  height: 300px;
+  background-color: rgba(31, 32, 73, 0.938);
 
+
+  .Title{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 38%;
+    justify-content: space-between;
+  }
+
+  .icon-1{
+  margin-top: 7%;
+  margin-left: 3%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+  .icon-2{
+  margin-top: 7%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+  .icon-3{
+  margin-top: 7%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+  .icon-4{
+  margin-top: 7%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+  .icon-5{
+  margin-top: 7%;  
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  }
+
+  .group{
+    margin-left: 33%;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .arr-6{
+    margin-top: 2%;
+  }
+
+  .arr-1{
+    margin-top: 6%;
+    margin-left: -8.4%;
+  }
+
+  .arr-2{
+     margin-top: 10%;
+    margin-left: -8.3%;
+  }
+
+  .arr-5{
+    margin-top: 2%;
+    margin-left: 13%;
+  }
+
+  .arr-3{
+    margin-top: 6%;
+    margin-left: -6.8%;
+  }
+
+  .arr-4{
+    margin-top: 10%;
+    margin-left: -7.3%;
+  }
+
+   .active{
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 18%;
+    margin-left: 140%;
+    color: #eee;
+  }
+
+   button{
+    position: absolute;
+    width: 12%;
+    height: 6%;
+    margin-top: -10px;
+    margin-left: 80%;
+    display: block;
+    background: linear-gradient(to right, #0be65fdc 5%, #05fcaa98 100%);
+    border: none;
+    border-radius: 50px;
+    padding: 7px;
+    font-family: 'public-sans';
+    color: #e7e7e7;
+   }
+
+   .head{
+    margin-left: 40px;
+    font-size: 30px;
+   }
+
+   .logo-name{
+    margin-top: 7.3%;
+    margin-left: 78.3%;
+    display: block;
+    font-size: 26px;
+    border: none;
+    font-family: Arial;
+    color: rgb(124, 124, 124);
+   }
+
+  li{
+    padding-left: 20px;
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: rgb(211, 208, 208);
+    font-weight: lighter;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+}
+.butn-side{
+  margin-top: 2%;
 }
