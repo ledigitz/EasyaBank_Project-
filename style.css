@@ -26,7 +26,7 @@ header .sub_head{
   width: 80%;
 }
 .logo img {
-    height: 40px; 
+    height: 40px; /* Adjust the height as needed */
 }
 
 nav {
@@ -64,7 +64,7 @@ nav {
 
 .nav-right {
     display: flex;
-    align-items: right;
+    align-items: center;
 }
 
 .request-invite {
@@ -190,6 +190,7 @@ nav {
   background-color: aliceblue;
   padding-top: 5%;
   padding-bottom: 5%;
+  margin: 0px;
 }
 
 .easy-bank {
@@ -323,8 +324,90 @@ background-color:#eaeaea;
 footer {
   /* Insert your code here */ 
   box-sizing: border-box;
+  height: auto;
+  background-color: hsl(233, 26%, 24%); /*rgba(31, 32, 73, 0.938);*/
+  
+}
+footer .contn{
+  width: 80%;
+  display: flex;
+  /* border: 1px red solid; */
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer .contn .left_group_footer{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contn .left_group_footer .left_footer{
+  /* border: 1px solid white; */
+  width: 25%;
+}
+footer .contn .left_group_footer .left_footer .footer_icon{
+  display: flex;
+  justify-content: space-between;
+}
+footer .contn .left_group_footer .left_footer .footer_icon svg{
+  fill: #fff; 
+}
+footer .contn .left_group_footer .left_footer .footer_icon svg:hover{
+  fill: hsl(136, 65%, 51%); 
+}
+/* svg:hover{
+  fill: hsl(136, 65%, 51%); 
+} */
+footer .contn .left_group_footer .left_footer .footer_logo{
+  padding-bottom: 50px;
+}
+footer .contn .left_group_footer .nav_footer_1 ul li{
+  list-style:none;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+footer .contn .left_group_footer .nav_footer_2 ul li{
+  list-style:none;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+footer .contn .left_group_footer .nav_footer_1 ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+footer .contn .left_group_footer .nav_footer_1 ul li a:hover{
+color: hsl(136, 65%, 51%);
+}
+footer .contn .left_group_footer .nav_footer_2 ul li a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+footer .contn .left_group_footer .nav_footer_2 ul li a:hover{
+  color: hsl(136, 65%, 51%);
+  }
+  
+footer .contn .right_group_footer{
+  text-align: right;
+  color: rgb(124, 124, 124);
+}
+footer .contn .right_group_footer .copyright{
+  padding-top: 20px;
+}
+
+/* */
+/* Footer Styles 
+footer {*/
+  /* Insert your code here */
+  /* Insert your code here */ 
+  /*box-sizing: border-box;
   height: 300px;
-  background-color: rgba(31, 32, 73, 0.938);}
+  background-color: rgba(31, 32, 73, 0.938);
+
 
   .Title{
     list-style-type: none;
@@ -448,18 +531,18 @@ footer {
 
   li a {
     display: block;
-    color: rgb(250, 247, 247);
+    color: rgb(211, 208, 208);
     font-weight: lighter;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
-
+}
 .butn-side{
   margin-top: 2%;
 }
-
+*/
 /* Form Input Section Start */
 .container{
   text-align: center;
@@ -493,7 +576,7 @@ footer {
 }
 form{
   display: flex;
-  background-color:#30CC7B ;
+  background-color: gray;
   align-items: center;
   justify-content: center;
   padding-top: 10px;
@@ -531,11 +614,9 @@ input.sub{
   width: 300px;
   height: 30px;
   cursor: pointer;
-  background-color: rgb(236, 243, 236);
+  background-color: limegreen;
   font-weight: bold;
   font-family: public-san;
-  border:none;
-  border-radius:10px;
 }
 body{
   background-color: white;
