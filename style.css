@@ -270,12 +270,91 @@ border: 3px solid transparent;
   width: 100%;
   height: 250px;
 }
-
-/* Footer Styles */
+/* Updated Footer*/
 footer {
-  /* Insert your code here */
   /* Insert your code here */ 
   box-sizing: border-box;
+  height: auto;
+  background-color: hsl(233, 26%, 24%); /*rgba(31, 32, 73, 0.938);*/
+  
+}
+footer .contn{
+  width: 80%;
+  display: flex;
+  /* border: 1px red solid; */
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer .contn .left_group_footer{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .contn .left_group_footer .left_footer{
+  /* border: 1px solid white; */
+  width: 25%;
+}
+footer .contn .left_group_footer .left_footer .footer_icon{
+  display: flex;
+  justify-content: space-between;
+}
+footer .contn .left_group_footer .left_footer .footer_icon svg{
+  fill: #fff; 
+}
+footer .contn .left_group_footer .left_footer .footer_icon svg:hover{
+  fill: hsl(136, 65%, 51%); 
+}
+/* svg:hover{
+  fill: hsl(136, 65%, 51%); 
+} */
+footer .contn .left_group_footer .left_footer .footer_logo{
+  padding-bottom: 50px;
+}
+footer .contn .left_group_footer .nav_footer_1 ul li{
+  list-style:none;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+footer .contn .left_group_footer .nav_footer_2 ul li{
+  list-style:none;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+footer .contn .left_group_footer .nav_footer_1 ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+footer .contn .left_group_footer .nav_footer_1 ul li a:hover{
+color: hsl(136, 65%, 51%);
+}
+footer .contn .left_group_footer .nav_footer_2 ul li a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+footer .contn .left_group_footer .nav_footer_2 ul li a:hover{
+  color: hsl(136, 65%, 51%);
+  }
+  
+footer .contn .right_group_footer{
+  text-align: right;
+  color: rgb(124, 124, 124);
+}
+footer .contn .right_group_footer .copyright{
+  padding-top: 20px;
+}
+
+/* */
+/* Footer Styles 
+footer {*/
+  /* Insert your code here */
+  /* Insert your code here */ 
+  /*box-sizing: border-box;
   height: 300px;
   background-color: rgba(31, 32, 73, 0.938);
 
@@ -413,7 +492,7 @@ footer {
 .butn-side{
   margin-top: 2%;
 }
-
+*/
 /* Form Input Section Start */
 .container{
   text-align: center;
