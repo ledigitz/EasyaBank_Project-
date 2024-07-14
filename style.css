@@ -22,7 +22,7 @@ header {
 }
 
 .logo img {
-    height: 40px; /* Adjust the height as needed */
+    height: 40px; 
 }
 
 nav {
@@ -54,7 +54,7 @@ nav {
 
 .nav-right {
     display: flex;
-    align-items: center;
+    align-items: right;
 }
 
 .request-invite {
@@ -231,7 +231,7 @@ footer {
   /* Insert your code here */ 
   box-sizing: border-box;
   height: 300px;
-  background-color: rgba(31, 32, 73, 0.938);
+  background-color: rgba(31, 32, 73, 0.938);}
 
 
   .Title{
@@ -363,7 +363,7 @@ footer {
     text-decoration: none;
   }
 
-}
+
 .butn-side{
   margin-top: 2%;
 }
