@@ -367,3 +367,83 @@ footer {
 .butn-side{
   margin-top: 2%;
 }
+
+/* Form Input Section Start */
+.container{
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
+.head{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.head h1{
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+.head h3{
+  font-size: 15px;
+  margin-top: 10px;
+  color: black;
+}
+.head p{
+  margin-top: 7px;
+  color: black;
+  font-weight: bold;
+}
+.wraper{
+  width: 90%;
+  margin: 0 auto;
+}
+form{
+  display: flex;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  width: 35%;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+form .box{
+  width: 98%;
+  height: 2rem;
+  border: 0;
+  border-radius: 5px;
+  position: relative;
+  bottom: 5px;
+}
+.wrapper1 select{
+  display: flex;
+  width: 98%;
+  height: 2rem;
+  border: 0;
+  border-radius: 5px;
+  position: relative;
+  top: 10px;
+}
+.wrapper2{
+  padding-top: 30px;
+  color: black;
+}
+.submit{
+  padding-top: 30px;
+}
+input.sub{
+  width: 300px;
+  height: 30px;
+  cursor: pointer;
+  background-color: limegreen;
+  font-weight: bold;
+  font-family: public-san;
+}
+body{
+  background-color: white;
+}
+/* Form Input Section Ends */
