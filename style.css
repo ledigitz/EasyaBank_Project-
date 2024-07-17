@@ -343,8 +343,8 @@ footer {
 /* Insert your code here */ 
 box-sizing: border-box;
 height: auto;
+background-color: hsl(233, 26%, 24%); /*rgba(31, 32, 73, 0.938);*/
 background-color: hsl(233, 26%, 24%); /rgba(31, 32, 73, 0.938);/
-
 }
 footer .contn{
 width: 80%;
@@ -749,6 +749,9 @@ background-color: white;
   }
   .xyz {
     display: none !important;
+    /* background-color: red !important; */
+  }
+}
     /* background-color: red !important; */
   }
 }
